@@ -9,7 +9,7 @@ function short(){
          fetch(`https://api.shrtco.de/v2/shorten?url=${url}`)
         .then((resp) => resp.json())
         .then((value) =>{
-            shorten_link.value = value.result.short_link;
+            shorten_link.value = value.result.short_link2;
         })
         .catch((error) => {
             shorten_link.value = "Something went wrong!!";
@@ -20,14 +20,13 @@ copy.onclick =() => {
     shorten_link.select();
     window.navigator.clipboard.writeText(shorten_link.value);
     // window.alert('Copied!');
-    copy.text("Copied!");
-    // copy.innerHTML="Copied!";
+    // copy.text("Copied!");
+    copy.innerHTML="Copied!";
     setTimeout(()=> {
         // window.alert('Copied!');
-        // copy.innerHTML="Copied!";
+        copy.innerHTML="Copied!";
         copy.text("Copy");
 
-    }, 1000);
+    }, 100);
 
 }
-
