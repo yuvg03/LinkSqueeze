@@ -14,8 +14,10 @@ The website's responsive design ensures seamless usage across various devices, a
 
 In summary, LinkSqueeze is a comprehensive link shortener website that simplifies the process of sharing and managing links. With its user-friendly interface, powerful API integration, LinkSqueeze empowers you to optimize your online presence and streamline your link-sharing endeavors. Try it today and experience the convenience of condensed links with LinkSqueeze!
 ### Visit Site: https://yuvg03.github.io/LinkSqueeze/
-### Short code: 
+### Short code: 9qr.de/mijYa4
+
 ![image](https://github.com/yuvg03/LinkSqueeze/assets/129162262/0ababd9c-a35f-4f27-9f61-ff8793a4406c)
+
 
 **If some error occurs error message is displayed:**
 
